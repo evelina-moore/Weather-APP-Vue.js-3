@@ -13,7 +13,7 @@ const today = new Date().toLocaleString('en-EN', { weekday: 'short', year: 'nume
 
 <template>
   <div class="summary">
-    <div :style="`background-image: url('/weather-main/${weatherInfo?.weather[0].description}.png');`" class="pic-main">
+    <div :style="`background-image: url('./weather-main/${weatherInfo?.weather[0].description}.png');`" class="pic-main">
     </div>
     <div class="weather">
       <div class="temp">

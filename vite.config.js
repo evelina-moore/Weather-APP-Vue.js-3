@@ -14,5 +14,6 @@ export default defineConfig({
   },
   build: {
     assetsDir: "public",
+    assets: ["videos", "weather-main"],
   },
 });

@@ -31,21 +31,21 @@ const setVideoBackground = (weatherCondition) => {
   weatherCondition = weatherCondition.toLowerCase();
 
   if (weatherCondition === 'clear') {
-    videoSource.value = '/videos/clear sky.mp4';
+    videoSource.value = './videos/clear sky.mp4';
   } else if (weatherCondition === 'clouds') {
-    videoSource.value = '/videos/clouds.mp4';
+    videoSource.value = './videos/clouds.mp4';
   } else if (weatherCondition === 'rain') {
-    videoSource.value = '/videos/rain.mp4';
+    videoSource.value = './videos/rain.mp4';
   } else if (weatherCondition === 'snow') {
-    videoSource.value = '/videos/snow.mp4';
+    videoSource.value = './videos/snow.mp4';
   } else if (weatherCondition === 'mist' || 'smoke' || 'haze' || 'dust' || 'fog' || 'sand' || 'ash' || 'squall' || 'tornado' ) {
-    videoSource.value = '/videos/trees.mp4';
+    videoSource.value = './videos/trees.mp4';
   } else if (weatherCondition === 'thunderstorm') {
-    videoSource.value = '/videos/thunderstorm.mp4';
+    videoSource.value = './videos/thunderstorm.mp4';
   } else if (weatherCondition === 'drizzle') {
-    videoSource.value = '/videos/drizzle.mp4';
+    videoSource.value = './videos/drizzle.mp4';
   } else {
-    videoSource.value = '/videos/sky.mp4';
+    videoSource.value = './videos/sky.mp4';
   }
 };
 
