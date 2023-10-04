@@ -5,6 +5,10 @@ https://evelina-moore.github.io/Weather-APP-Vue.js-3/
 ## Hi!
 ### This is my first project on Vue.js 3.
 
+1. API used: https://openweathermap.org/
+2. Build: Vite.js
+3. Sass preprocessor: .scss syntax
+
 *Enter the name of the city to check the weather*
 
 -----------------------------------------------------
